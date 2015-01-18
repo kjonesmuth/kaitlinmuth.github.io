@@ -1,0 +1,87 @@
+body {
+	background-color: rgb(154,195,215);
+}
+.container {
+	background-color: white;
+	padding-bottom: 10px;
+}
+.contact ul{
+	z-index:999;
+	position:fixed;
+	top:0;
+	left:0;
+	height:auto;
+	width:100%;
+	padding: 3px;
+	text-align: center;
+	background-color: white;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+}
+.contact li{
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.Purpose {
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	max-height: 357px;
+	margin-bottom: 40px;
+}
+.Purpose h1{
+	font-size: 70px;
+}
+.Purpose p{
+	font-size: 20px;
+}
+.Purpose img {
+	border-radius: 50%;
+	margin: 10px;
+}
+.heading-banner h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+.col-md-4 h3{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+.col-md-4 p{
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+}
+.col-md-4 li{
+	font-family: 'Open Sans', sans-serif;
+}
+.Experience img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	max-height: 100px;
+	height:auto;
+	width:auto;
+}
+.Education img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	max-height: 100px;
+	height:auto;
+	width:auto;
+	margin-top:20px;
+}
+.Elsewhere{
+	text-align: center;
+	padding-bottom: 25px;
+}
+.Elsewhere img{
+	margin: 15px;
+	display: inline-block;
+}
