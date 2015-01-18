@@ -30,18 +30,23 @@ body {
 	padding-top: 30px;
 	font-family: 'Montserrat', sans-serif;
 	display: block;
-	max-height: 357px;
-	margin-bottom: 40px;
+	overflow: auto;
 }
 .Purpose h1{
 	font-size: 70px;
 }
 .Purpose p{
 	font-size: 20px;
+	width: auto;
 }
 .Purpose img {
+	display: block;
 	border-radius: 50%;
-	margin: 10px;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
 }
 .heading-banner h2{
 	font-family: 'Montserrat', sans-serif;
